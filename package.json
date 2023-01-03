@@ -1,7 +1,11 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/vlad-bab/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/vlad-bab/frontend-project-44/actions)",
+  "type": "module",
+  "description": "First project on Hexlet - Brain games",
+  "bin": {
+	"brain-games": "bin/brain-games.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
