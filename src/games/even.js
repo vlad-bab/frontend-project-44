@@ -1,12 +1,10 @@
 import readlineSync from 'readline-sync';
 import { getRandomNumber } from '/home/vladislavba/frontend-project-44/src/randomNumberGenerator.js';
-import { welcomeUser } from '/home/vladislavba/frontend-project-44/src/cli.js';
 
 export const startEvenGame = () => {
     const maxRoundsCount = 3;
     const isEven = (number) => number % 2 === 0;
-    const greeting = welcomeUser();
-
+    
     const gameLogic = () => {
         const question = getRandomNumber();
         const correctAnswer = isEven(question) ? 'yes' : 'no';
@@ -14,7 +12,10 @@ export const startEvenGame = () => {
         return [question, correctAnswer];
     };
 
-    console.log(greeting);
+    console.log('Welcome to the Brain Games!');
+    const userName = readlineSync.question('May I have your name? ');
+    console.log(`Hello, ${userName}!`);
+
     console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
     for (let i = 1; i <= maxRoundsCount; i += 1) {
