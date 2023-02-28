@@ -1,5 +1,5 @@
 import gameEngine from '../index.js';
-import { getRandomNumber } from '/home/vladislavba/frontend-project-44/src/randomNumberGenerator.js';
+import getRandomNumber from '../randomNumberGenerator.js';
 
 const isPrime = (number) => {
     if (number === 2) {

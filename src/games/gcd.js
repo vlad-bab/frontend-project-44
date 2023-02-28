@@ -1,5 +1,5 @@
 import gameEngine from '../index.js';
-import { getRandomNumber } from '/home/vladislavba/frontend-project-44/src/randomNumberGenerator.js';
+import getRandomNumber from '../randomNumberGenerator.js';
 
 const getGreatestCommonDivisor = (a, b) => {
     while (a !== 0 && b !== 0) {
