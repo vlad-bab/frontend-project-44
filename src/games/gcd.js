@@ -1,16 +1,11 @@
 import gameEngine from '../index.js';
 import getRandomNumber from '../randomNumberGenerator.js';
 
-const getGreatestCommonDivisor = (a, b) => {
-  while (a !== 0 && b !== 0) {
-    if (a > b) {
-      a %= b;
-    } else {
-      b %= a;
-    }
+const getGreatestCommonDivisor = (firstValue, secondValue) => {
+  if (firstValue === 0) {
+    return secondValue;
   }
-
-  return a + b;
+  return getGreatestCommonDivisor(secondValue % firstValue, firstValue);
 };
 
 const gameDescription = 'Find the greatest common divisor of given numbers.';
