@@ -9,3 +9,6 @@ Brain-calc (demo)
 
 Brain-gcd (demo)
 [![asciicast](https://asciinema.org/a/SxEC5nZyTYGW0AwoZN3Z5ZrJS.svg)](https://asciinema.org/a/SxEC5nZyTYGW0AwoZN3Z5ZrJS)
+
+Brain-progression (demo)
+[![asciicast](https://asciinema.org/a/GN8g19o3MB9J7hDLM0uWg5TCn.svg)](https://asciinema.org/a/GN8g19o3MB9J7hDLM0uWg5TCn)
