@@ -4,14 +4,14 @@ import getRandomNumber from '../randomNumberGenerator.js';
 const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const gameLogic = () => {
-    const isEven = (number) => number % 2 === 0;
+  const isEven = (number) => number % 2 === 0;
 
-    const question = getRandomNumber();
-    const correctAnswer = isEven(question) ? 'yes' : 'no';
+  const question = getRandomNumber();
+  const correctAnswer = isEven(question) ? 'yes' : 'no';
 
-    return [question, correctAnswer];
+  return [question, correctAnswer];
 };
 
 export default () => {
-    gameEngine(gameDescription, gameLogic);
+  gameEngine(gameDescription, gameLogic);
 };
