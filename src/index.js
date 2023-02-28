@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-export default (gameDescription, gameData) => {
+export default (gameDescription, gameLogic) => {
     const maxRoundsCount = 3;
 
     console.log('Welcome to the Brain Games!');

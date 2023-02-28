@@ -1,4 +1,4 @@
-import gameLogic from '../index.js';
+import gameEngine from '../index.js';
 import { getRandomNumber } from '/home/vladislavba/frontend-project-44/src/randomNumberGenerator.js';
 
 const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
@@ -13,5 +13,5 @@ const gameLogic = () => {
 };
 
 export default () => {
-    gameLogic(gameDescription, gameLogic);
+    gameEngine(gameDescription, gameLogic);
 };

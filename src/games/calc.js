@@ -1,4 +1,4 @@
-import gameLogic from '../index.js';
+import gameEngine from '../index.js';
 import { getRandomNumber } from '/home/vladislavba/frontend-project-44/src/randomNumberGenerator.js';
 
 const operators = ['+', '-', '*'];
