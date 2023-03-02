@@ -35,7 +35,7 @@ make install
 
 ### 3. Create the symlink
 
-While you are in the root directory of the project:
+While in the root directory of the project:
 ```
 npm link 
 ```
