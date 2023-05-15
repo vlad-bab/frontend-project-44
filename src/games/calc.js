@@ -12,7 +12,7 @@ const getResultOfExpression = (firstValue, operator, secondValue) => {
     case '*':
       return firstValue * secondValue;
     default:
-      return null;
+      throw new Error(Operator ${operator} - is incorrect!);
   }
 };
 
