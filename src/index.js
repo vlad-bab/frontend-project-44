@@ -10,8 +10,7 @@ export default (rules, generateRound) => {
   console.log(rules);
 
   for (let i = 1; i <= maxRoundsCount; i += 1) {
-    const roundData = generateRound();
-    const [question, correctAnswer] = roundData;
+    const [question, correctAnswer] = generateRound();
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
